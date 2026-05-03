@@ -23,11 +23,11 @@ pip install torch numpy pandas scikit-learn matplotlib scipy
 ```
  
 ## Data
-Download the C-MAPSS datasets from Kaggle and update the file paths in the **Dataset Paths** cell:
-- FD001: https://www.kaggle.com/datasets/fawazmallick01/c-mapss
-- FD002: https://www.kaggle.com/datasets/fawazmallick01/c-mapss-fd002
-- FD003: https://www.kaggle.com/datasets/fawazmallick01/c-mapss-fd-003
-- FD004: https://www.kaggle.com/datasets/fawazmallick01/c-mapss-fd004
+Download the C-MAPSS dataset from Kaggle (public, no login required):
+https://www.kaggle.com/datasets/behrad3d/nasa-cmaps
+
+Place the files in the same directory as the notebook and update the 
+file paths in the **Dataset Paths** cell accordingly.
 ## Reproducing Results
 Run all cells in `deep-learning-project.ipynb` top to bottom. Training takes
 approximately 30–60 minutes on a GPU. Key results:
